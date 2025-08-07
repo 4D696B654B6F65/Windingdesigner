@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- set Favicon for browser display --!>
-    <link rel="icon" href="static\SteeemPower.png" type="image/png">
+    <link rel="icon" href="Windingdesigner\static\SteeemPower.png" type="image/png">
 
     <!-- Font Import --!>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
@@ -282,7 +282,7 @@
             </div>
 
             <script type="module">
-                import { maindraw } from "static/canvas.js";
+                import { maindraw } from "Windingdesigner/static/canvas.js";
                 function togglePanel() {
                     const panel = document.getElementById('panel');
                     panel.classList.toggle('collapsed');
@@ -321,14 +321,14 @@
             <div id="table-container" class="floating-table"></div>
 
             <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.11.0/math.min.js"></script>
-            <script src="static/WindingCalc.js"> </script>
-            <script src="static/motor_canvas.js"> </script>
-            <script type = "module" src="static/canvas.js"> </script>
+            <script src="Windingdesigner/static/WindingCalc.js"> </script>
+            <script src="Windingdesigner/static/motor_canvas.js"> </script>
+            <script type = "module" src="Windingdesigner/static/canvas.js"> </script>
 
         </div>
 
         <div id="logo-container">
-            <img id="logo" src="static\SteeemLogo.png" alt="Logo">
+            <img id="logo" src="Windingdesigner\static\SteeemLogo.png" alt="Logo">
             <script>
             document.getElementById('logo-container').addEventListener('click', function() {
             window.location.href = 'https://dev.steeem.com';  // Replace with your desired URL
